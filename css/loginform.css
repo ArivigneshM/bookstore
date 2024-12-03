@@ -1,0 +1,156 @@
+body{
+		color: #333;
+	}
+	body,p,input,div,span{
+		padding: 0;
+		margin: 0;
+		outline: none;
+		box-sizing: border-box;
+	}
+	.w300{
+		width: 300px;
+	}
+	.w200{
+	width: 200px;	
+	}
+	.w100{
+		width: 100px;
+	}
+	.com-title{
+		font-size: 21px;
+		font-weight: 600;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.loginwrap{
+		width: 400px;
+		padding: 20px 35px;
+		border: 1px solid #d6d6d6;
+		margin: 10px auto 0;
+	}
+	.form-fld{
+		margin-bottom: 20px;
+	}
+	.login-title{
+		margin-bottom: 10px;
+	}
+	.form-fld input{
+	    border: 1px solid #d6d6d6;
+	    text-align: left;
+	    height: 40px;
+	    padding: 0 15px;
+	    border-radius: 4px;
+	    flex-shrink: 0;
+	    flex-grow: 1;
+	    font-size: 16px;
+	    width: 100%;
+	}
+	.butn-wrap{
+		text-align: center;
+	}
+	.butn{
+		display: inline-block;
+	    vertical-align: middle;
+	    padding: 0 20px;
+	    min-width: 120px;
+	    text-align: center;
+	    font-style: normal;
+	    color: #fff;
+	    cursor: pointer;
+	    background-color: #037cd1;
+	    height: 40px;
+	    line-height: 38px;
+	    border-radius: 2px;
+	}
+	.login{
+		background-color: #cc5251;
+		margin-right: 15px;
+	}
+	.signup{
+		background-color: #3a3c62;
+	}
+	.cancel{
+		background-color: #fff;
+		color: #333;
+		border: 1px solid #d6d6d6;
+		margin-left: 15px;
+	}
+	.table-wrap{
+		display: table;
+		table-layout: fixed;
+		margin:30px auto 30px;
+		overflow: hidden;
+		border-radius: 6px 6px 0 0;
+		border-width: 1px 0 0 1px;
+		border-style: solid;
+		border-color: #d6d6d6;
+	}
+	.table-head,.table-list{
+		display: table-row;
+		height: 40px;
+		line-height: 40px;
+    	text-align: center;
+	}
+	.table-head{
+		background-color: #6d7ae0;
+		color: #fff;
+	}
+	.table-list{
+		background-color: #fff;
+		border-bottom: 1px solid #d6d6d6;
+	}
+	.table-head > div,.table-list > div{
+		display: table-cell;
+		border-bottom: 1px solid #d6d6d6;
+    	border-right: 1px solid #d6d6d6;
+	}
+	.table-get{
+		display: inline-block;
+		vertical-align: middle;
+		max-width: 70px;
+		font-size: 13px;
+		color: #fff;
+		background-color: #0191f8;
+		padding: 0 10px;
+		text-align: center;
+		height: 20px;
+		line-height: 20px;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+	.available{
+		color: #64ce64;
+	}
+	.sold{
+		color: #f75050;
+	}
+
+	/*banner styles*/
+
+	.banner{
+		height: 60px;
+		background-color: #fff;
+		border: 2px solid transparent;
+		border-radius: 6px;
+		box-shadow: 0 0 4px rgba(51, 51, 51, 0.3);
+		max-width: 500px;
+    	margin: auto;
+    	display: flex;align-items: center;justify-content: center;
+    	margin-top: 10px;
+	}
+	b{
+		margin-right: 10px;
+	}
+	.suces{
+		border-color: #6bc2b5;
+	}
+	.error{
+		border-color: #e3a39e;
+	}
+
+
+
+
+
+
+
